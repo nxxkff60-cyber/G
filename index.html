@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070914">
+  <meta name="description" content="COPOXXX — Esports, Gaming, Coding, Web Development ও AI শেখার বাংলা প্ল্যাটফর্ম।">
+  <title>COPOXXX | Play. Learn. Build.</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="#home" aria-label="COPOXXX Home">
+      <img src="assets/logo.svg" alt="" width="43" height="43">
+      <span>COPOXXX<small>PLAY · LEARN · BUILD</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks">☰ Menu</button>
+    <nav id="navLinks" class="nav-links">
+      <a href="#esports">Esports</a><a href="#gaming">Gaming</a><a href="#coding">Coding</a>
+      <a href="#webdev">Web Dev</a><a href="#ai">AI</a><a href="#security">Security</a><a href="#roadmap">Roadmap</a>
+    </nav>
+    <a class="nav-cta" href="#explore">Explore ↗</a>
+  </div>
+</header>
+
+<main>
+<section class="hero container" id="home">
+  <div class="hero-copy">
+    <p class="eyebrow"><span class="live-dot"></span> YOUR DIGITAL SKILL HUB</p>
+    <h1>WELCOME TO<br><span>COPOXXX</span></h1>
+    <h2>Play. Learn. Build.</h2>
+    <p class="hero-text">ইস্পোর্টস, গেমিং, কোডিং, ওয়েব ডেভেলপমেন্ট এবং AI শেখার জন্য তোমার নিজস্ব বাংলা হাব। নতুন দক্ষতা শেখো, নিজের আইডিয়া তৈরি করো, আর ধাপে ধাপে পরের লেভেলে যাও।</p>
+    <div class="hero-actions"><a class="button primary" href="#explore">শেখা শুরু করো <b>↗</b></a><a class="button ghost" href="#roadmap">৩০ দিনের রোডম্যাপ</a></div>
+    <div class="hero-mini"><span>✦ Beginner Friendly</span><span>⌘ Practical Guides</span><span>◉ Mobile Ready</span></div>
+  </div>
+  <div class="hero-visual" aria-label="Futuristic gaming and technology illustration">
+    <div class="glow"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+    <div class="hero-symbol">C<span>✦</span></div>
+    <div class="float-card float-top">🏆 <div><b>ESPORTS</b><small>Compete with skill</small></div></div>
+    <div class="float-card float-right">⌨️ <div><b>CODE LAB</b><small>Build your ideas</small></div></div>
+    <div class="float-card float-bottom">✦ <div><b>AI STUDIO</b><small>Learn smarter</small></div></div>
+  </div>
+</section>
+
+<section class="container stat-row" aria-label="Website topics">
+  <div><b>🏆 Esports</b><span>টুর্নামেন্ট ও টিম গাইড</span></div><div><b>🎮 Gaming</b><span>কৌশল ও অনুশীলন</span></div>
+  <div><b>⌨️ Coding</b><span>বেসিক থেকে প্রজেক্ট</span></div><div><b>🤖 AI</b><span>স্মার্টভাবে শেখা</span></div>
+</section>
+
+<section class="section container" id="explore">
+  <div class="section-heading"><div><p class="eyebrow">EXPLORE TOPICS</p><h2>তোমার পছন্দের সেক্টর বেছে নাও</h2></div>
+    <input class="topic-search" id="topicSearch" type="search" placeholder="সেক্টর খুঁজুন..." aria-label="সেক্টর খুঁজুন">
+  </div>
+  <div class="topic-grid" id="topicGrid">
+    <article class="topic-card" data-search="esports ইস্পোর্টস tournament টুর্নামেন্ট"><div class="topic-art art-purple">🏆</div><div class="topic-content"><h3>Esports & Tournaments</h3><p>টুর্নামেন্টের ধরন, টিম তৈরি, প্রতিযোগিতার নিয়ম, অনুশীলন ও fair play সম্পর্কে জানো।</p><div class="tags"><span>TOURNAMENT</span><span>TEAMWORK</span></div><a href="#esports" class="text-link">বিস্তারিত জানো →</a></div></article>
+    <article class="topic-card" data-search="gaming গেমিং strategy game"><div class="topic-art art-blue">🎮</div><div class="topic-content"><h3>Gaming</h3><p>গেমিং কৌশল, কন্ট্রোল, সেটিংস, টিম যোগাযোগ ও সুস্থ গেমিং অভ্যাস শেখো।</p><div class="tags"><span>MOBILE</span><span>PC</span></div><a href="#gaming" class="text-link">বিস্তারিত জানো →</a></div></article>
+    <article class="topic-card" data-search="coding কোডিং python html css javascript programming"><div class="topic-art art-cyan">⌨️</div><div class="topic-content"><h3>Coding & Programming</h3><p>Python, HTML, CSS ও JavaScript-এর বেসিক, লজিক ও সমস্যা সমাধান শেখো।</p><div class="tags"><span>PYTHON</span><span>HTML/CSS</span></div><a href="#coding" class="text-link">বিস্তারিত জানো →</a></div></article>
+    <article class="topic-card" data-search="web development ওয়েবসাইট website developer"><div class="topic-art art-blue">🌐</div><div class="topic-content"><h3>Web Development</h3><p>ওয়েবসাইটের কাঠামো, ডিজাইন, ইন্টারঅ্যাকশন, পরীক্ষা ও প্রকাশ করার ধাপ জানো।</p><div class="tags"><span>FRONTEND</span><span>PROJECTS</span></div><a href="#webdev" class="text-link">বিস্তারিত জানো →</a></div></article>
+    <article class="topic-card" data-search="ai এআই artificial intelligence prompt"><div class="topic-art art-purple">🤖</div><div class="topic-content"><h3>AI Learning</h3><p>ভালো prompt লেখা, পড়াশোনায় AI ব্যবহার এবং উত্তর যাচাই করার পদ্ধতি শেখো।</p><div class="tags"><span>PROMPTING</span><span>RESEARCH</span></div><a href="#ai" class="text-link">বিস্তারিত জানো →</a></div></article>
+    <article class="topic-card" data-search="cybersecurity security সাইবার নিরাপত্তা privacy"><div class="topic-art art-cyan">🛡️</div><div class="topic-content"><h3>Cybersecurity</h3><p>পাসওয়ার্ড, 2FA, ফিশিং শনাক্ত করা ও অনলাইন গোপনীয়তা রক্ষা শেখো।</p><div class="tags"><span>PRIVACY</span><span>SAFETY</span></div><a href="#security" class="text-link">বিস্তারিত জানো →</a></div></article>
+  </div>
+  <p class="empty-state" id="emptyState" hidden>এই নামে কোনো সেক্টর পাওয়া যায়নি। অন্য শব্দ দিয়ে চেষ্টা করো।</p>
+</section>
+
+<section class="section container" id="esports">
+  <div class="section-heading"><div><p class="eyebrow">01 / COMPETE</p><h2>Esports ও টুর্নামেন্ট</h2></div><p>ইস্পোর্টস হলো নিয়ম মেনে প্রতিযোগিতামূলক ভিডিও গেম খেলা। এখানে দক্ষতা, কৌশল, মনোযোগ এবং দলগত যোগাযোগ গুরুত্বপূর্ণ।</p></div>
+  <div class="three-grid"><article class="info-card"><div class="info-icon">🥇</div><h3>টুর্নামেন্টের ধরন</h3><p><b>Solo:</b> একক খেলোয়াড়। <b>Duo/Squad:</b> জুটি বা দল। <b>League:</b> কয়েকটি ম্যাচে পয়েন্ট। <b>Knockout:</b> হারলে বাদ। <b>Online/LAN:</b> অনলাইনে বা একই ভেন্যুতে খেলা।</p></article>
+  <article class="info-card"><div class="info-icon">👥</div><h3>টিম তৈরি</h3><p>দলের লক্ষ্য ঠিক করো, খেলোয়াড়দের ভূমিকা ভাগ করো, যোগাযোগের নিয়ম বানাও এবং ম্যাচ শেষে ভুলগুলো একসঙ্গে বিশ্লেষণ করো।</p></article>
+  <article class="info-card"><div class="info-icon">📋</div><h3>খেলার আগে যাচাই</h3><p>আয়োজকের সত্যতা, নিয়ম, যোগ্যতা, রেজিস্ট্রেশনের সময় ও পুরস্কারের শর্ত পড়ে নাও। সন্দেহজনক লিংক বা ফি যাচাই ছাড়া বিশ্বাস কোরো না।</p></article></div>
+  <div class="notice">⚠️ <div><b>জেনে রাখো:</b> এই সাইটটি শিক্ষামূলক গাইড; এখানে এখনো লাইভ টুর্নামেন্ট রেজিস্ট্রেশন বা পুরস্কার ব্যবস্থা নেই।</div></div>
+</section>
+
+<section class="section container" id="gaming">
+  <div class="section-heading"><div><p class="eyebrow">02 / PLAY SMART</p><h2>Gaming থেকে কী শেখা যায়?</h2></div><p>গেমিং কৌশল, দ্রুত সিদ্ধান্ত এবং যোগাযোগের অনুশীলন হতে পারে—তবে বিশ্রাম ও দৈনন্দিন জীবনের ভারসাম্য রাখা জরুরি।</p></div>
+  <div class="three-grid"><article class="info-card"><div class="info-icon">🧠</div><h3>কৌশল ও সিদ্ধান্ত</h3><p>ম্যাপ বোঝা, পরিস্থিতি বিচার, সম্পদ ব্যবস্থাপনা এবং ভুল থেকে শেখার অভ্যাস গড়ে তোলো।</p></article><article class="info-card"><div class="info-icon">🎧</div><h3>সেটআপ ও অনুশীলন</h3><p>আরামদায়ক কন্ট্রোল, উপযুক্ত sensitivity এবং ছোট লক্ষ্যভিত্তিক practice session বেছে নাও।</p></article><article class="info-card"><div class="info-icon">⚖️</div><h3>সুস্থ গেমিং</h3><p>বিরতি নাও, ঘুম ও পড়াশোনাকে গুরুত্ব দাও এবং অনলাইনে ব্যক্তিগত তথ্য প্রকাশ কোরো না।</p></article></div>
+</section>
+
+<section class="section container" id="coding">
+  <div class="section-heading"><div><p class="eyebrow">03 / THINK IN CODE</p><h2>কোডিং কী এবং কেন শিখবে?</h2></div><p>কোডিং হলো কম্পিউটারকে নির্দিষ্ট কাজ করানোর নির্দেশনা লেখা। প্রোগ্রামিং শেখা মানে সমস্যা ভেঙে যুক্তি দিয়ে সমাধান করা।</p></div>
+  <div class="three-grid"><article class="info-card"><div class="info-icon">🐍</div><h3>Python</h3><p>ভেরিয়েবল, শর্ত, লুপ ও ফাংশন দিয়ে শুরু করো। পরে কুইজ, ক্যালকুলেটর বা ছোট অটোমেশন বানাও।</p></article><article class="info-card"><div class="info-icon">🌐</div><h3>HTML, CSS, JavaScript</h3><p>HTML কাঠামো তৈরি করে, CSS ডিজাইন করে, আর JavaScript ওয়েবসাইটে ইন্টারঅ্যাকশন যোগ করে।</p></article><article class="info-card"><div class="info-icon">🧩</div><h3>কী দক্ষতা তৈরি হয়?</h3><p>যুক্তি, সমস্যা সমাধান, ডিবাগিং, ধৈর্য, সৃজনশীলতা এবং নিজের আইডিয়াকে প্রজেক্টে রূপ দেওয়ার দক্ষতা।</p></article></div>
+</section>
+
+<section class="section container" id="webdev">
+  <div class="section-heading"><div><p class="eyebrow">04 / BUILD DIGITAL</p><h2>ওয়েবসাইট কীভাবে তৈরি হয়?</h2></div><p>একটি ওয়েবসাইট পরিকল্পনা, ডিজাইন, কোড, পরীক্ষা এবং প্রকাশের ধাপ পেরিয়ে তৈরি হয়।</p></div>
+  <div class="build-grid"><div class="build-intro"><div class="big-code">〈/〉</div><h3>নিজের প্রথম প্রজেক্ট বানাও</h3><p>গেমিং গাইড, নিজের পরিচিতি বা শেখার নোটের ওয়েবসাইট দিয়ে শুরু করতে পারো।</p></div><div class="steps"><div><i>01</i><span><b>পরিকল্পনা</b><small>কী তথ্য থাকবে এবং কারা ব্যবহার করবে ঠিক করো।</small></span></div><div><i>02</i><span><b>ডিজাইন ও কোড</b><small>HTML, CSS এবং দরকার হলে JavaScript ব্যবহার করো।</small></span></div><div><i>03</i><span><b>পরীক্ষা</b><small>ফোন ও কম্পিউটারে লিংক, বাটন ও লেখা যাচাই করো।</small></span></div><div><i>04</i><span><b>প্রকাশ</b><small>GitHub Pages-এর মতো স্ট্যাটিক হোস্টিংয়ে প্রকাশ করতে পারো।</small></span></div></div></div>
+</section>
+
+<section class="section container" id="ai">
+  <div class="section-heading"><div><p class="eyebrow">05 / AI STUDIO</p><h2>AI কীভাবে কাজে লাগাবে?</h2></div><p>AI বিষয় বুঝতে, পরিকল্পনা করতে ও খসড়া তৈরি করতে সাহায্য করে; কিন্তু ফলাফল যাচাই করা প্রয়োজন।</p></div>
+  <div class="three-grid"><article class="info-card"><div class="info-icon">💬</div><h3>ভালো Prompt</h3><p>AI-কে লক্ষ্য, প্রেক্ষাপট, সীমাবদ্ধতা এবং কী ধরনের উত্তর চাও তা পরিষ্কারভাবে বলো।</p></article><article class="info-card"><div class="info-icon">📚</div><h3>পড়াশোনা ও গবেষণা</h3><p>সহজ ব্যাখ্যা, কুইজ, শেখার পরিকল্পনা ও গবেষণার প্রশ্ন তৈরি করতে AI ব্যবহার করো।</p></article><article class="info-card"><div class="info-icon">🧰</div><h3>কোডিংয়ে AI</h3><p>কোডের ব্যাখ্যা ও ভুলের কারণ জানতে সাহায্য নাও। অজানা কোড অন্ধভাবে চালিও না এবং ব্যক্তিগত তথ্য শেয়ার কোরো না।</p></article></div>
+</section>
+
+<section class="section container" id="security">
+  <div class="section-heading"><div><p class="eyebrow">06 / STAY SECURE</p><h2>Cybersecurity ও অনলাইন নিরাপত্তা</h2></div><p>নিজের অ্যাকাউন্ট, ডিভাইস ও ব্যক্তিগত তথ্য সুরক্ষিত রাখা ডিজিটাল দক্ষতার গুরুত্বপূর্ণ অংশ।</p></div>
+  <div class="three-grid"><article class="info-card"><div class="info-icon">🔑</div><h3>শক্তিশালী পাসওয়ার্ড</h3><p>প্রতিটি অ্যাকাউন্টে আলাদা পাসওয়ার্ড ব্যবহার করো।</p></article><article class="info-card"><div class="info-icon">📲</div><h3>2FA চালু রাখো</h3><p>সম্ভব হলে দুই-ধাপ যাচাইকরণ চালু করো এবং লগইন কোড কাউকে দিও না।</p></article><article class="info-card"><div class="info-icon">🚫</div><h3>ফিশিং চিনে নাও</h3><p>অচেনা লিংক, সন্দেহজনক ফাইল ও অবাস্তব পুরস্কারের প্রলোভন এড়িয়ে চলো।</p></article></div>
+</section>
+
+<section class="section container" id="roadmap">
+  <div class="roadmap"><div><p class="eyebrow">YOUR 30-DAY QUEST</p><h2>৩০ দিনের শেখার রোডম্যাপ</h2><p>প্রতিদিন ২০–৪৫ মিনিট সময় দিয়ে নিজের গতিতে এগোও। ছোট প্রজেক্ট আর নিয়মিত অনুশীলনই মূল কথা।</p></div><div class="timeline"><div><i>📘</i><b>দিন ১–৫</b><small>বেসিক</small></div><div><i>⌨️</i><b>দিন ৬–১০</b><small>অনুশীলন</small></div><div><i>🧩</i><b>দিন ১১–১৫</b><small>প্রজেক্ট</small></div><div><i>🛠️</i><b>দিন ১৬–২০</b><small>উন্নতি</small></div><div><i>🚀</i><b>দিন ২১–২৫</b><small>পোর্টফোলিও</small></div><div><i>🏆</i><b>দিন ২৬–৩০</b><small>পরের লেভেল</small></div></div></div>
+</section>
+
+<section class="section container" id="faq"><div class="section-heading"><div><p class="eyebrow">QUICK ANSWERS</p><h2>সাধারণ প্রশ্ন</h2></div></div><div class="faq-grid">
+<details><summary>আমি একদম নতুন, কোডিং শিখতে পারব?</summary><p>অবশ্যই। HTML/CSS বা Python-এর বেসিক দিয়ে শুরু করো এবং প্রতিদিন ছোট অনুশীলন করো।</p></details>
+<details><summary>AI কি সবসময় সঠিক উত্তর দেয়?</summary><p>না। AI ভুল করতে পারে, তাই গুরুত্বপূর্ণ তথ্য নির্ভরযোগ্য উৎসে যাচাই করো।</p></details>
+<details><summary>এই সাইটে লাইভ টুর্নামেন্ট আছে?</summary><p>না। এটি শিক্ষামূলক ওয়েবসাইট; লাইভ রেজিস্ট্রেশন, লগইন, ডেটাবেস বা পেমেন্ট নেই।</p></details>
+<details><summary>মোবাইলে ওয়েবসাইটটি চলবে?</summary><p>হ্যাঁ, ডিজাইনটি ফোন, ট্যাবলেট ও কম্পিউটারের স্ক্রিনের সঙ্গে মানিয়ে নেয়।</p></details>
+</div></section>
+
+<section class="container final-cta"><p class="eyebrow">YOUR NEXT LEVEL STARTS HERE</p><h2>শেখো। তৈরি করো। এগিয়ে যাও।</h2><p>একটি সেক্টর বেছে নাও, নিয়মিত অনুশীলন করো, আর নিজের আইডিয়াকে প্রজেক্টে রূপ দাও।</p><a class="button primary" href="#explore">সব সেক্টর দেখো ↑</a></section>
+</main>
+<footer><div class="container footer-main"><div class="brand footer-brand"><img src="assets/logo.svg" alt="" width="43" height="43"><span>COPOXXX<small>PLAY · LEARN · BUILD</small></span></div><div><b>Quick Links</b><a href="#esports">Esports</a><a href="#coding">Coding</a><a href="#webdev">Web Development</a></div><div><b>Explore</b><a href="#ai">AI Learning</a><a href="#security">Cybersecurity</a><a href="#roadmap">Roadmap</a></div><div><b>About</b><p>বাংলায় গেমিং ও ডিজিটাল দক্ষতা শেখার একটি শিক্ষামূলক সাইট।</p></div></div><div class="container copyright"><span>© <span id="year"></span> COPOXXX. All rights reserved.</span><span>Play. Learn. Build. ⚡</span></div></footer>
+</body>
+</html>
